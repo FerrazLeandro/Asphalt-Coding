@@ -32,15 +32,15 @@ function Footer() {
                             <i className="fab fa-linkedin-in"></i>
                         </a>
 
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/AnthonyBarbosa15/EcommerceReact" role="button">
                             <i className="fab fa-github"></i>
                             </a>
                     </section>
                 </div>
 
                 <div className="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-                    © 2020 Copyright:
-                    <a className="text-white" href="https://mdbootstrap.com/"> EcommerceReact.com</a>
+                    © 2022 Copyright:
+                    <a className="text-white" href="https://github.com/AnthonyBarbosa15/EcommerceReact"> Ecommerce React</a>
                 </div>
             </footer>
         </>
