@@ -1,21 +1,14 @@
 import { Link } from "react-router-dom"
+import Footer from "../../components/Footer/footer"
+import Header from "../../components/Header/header"
 
-function Cadastro () {
+function Cadastro() {
     return (
         <>
-        <ul>
-            <li>
-                <Link to='/'>Home</Link>
-            </li>
-            <li>
-                <Link to='/consulta'>Consulta</Link>
-            </li>
-            <li>
-                <Link to='/sobre'>Sobre</Link>
-            </li>
-        </ul>
+            <Header />
             <h1>Cadastro</h1>
-    </>
+            <Footer />
+        </>
     )
 }
 

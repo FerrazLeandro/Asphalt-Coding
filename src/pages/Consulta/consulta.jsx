@@ -1,21 +1,14 @@
 import { Link } from "react-router-dom"
+import Footer from "../../components/Footer/footer"
+import Header from "../../components/Header/header"
 
-function Consulta () {
+function Consulta() {
     return (
         <>
-        <ul>
-            <li>
-                <Link to='/'>Home</Link>
-            </li>
-            <li>
-                <Link to='/cadastro'>Cadastro</Link>
-            </li>
-            <li>
-                <Link to='/sobre'>Sobre</Link>
-            </li>
-        </ul>
+            <Header />
             <h1>Consulta</h1>
-    </>
+            <Footer />
+        </>
     )
 }
 

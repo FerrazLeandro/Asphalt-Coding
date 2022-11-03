@@ -3,7 +3,7 @@ import Home from './pages/Home/home'
 import { Routes, Route } from 'react-router-dom'
 import Cadastro from './pages/Cadastro/cadastro'
 import Consulta from './pages/Consulta/consulta'
-import Sobre from './pages/Sobre/Sobre'
+import Sobre from './pages/Sobre/sobre'
 import Erro from './pages/Erro/erro'
 
 function App() {

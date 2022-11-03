@@ -1,21 +1,15 @@
 import './home.css'
 import { Link } from "react-router-dom"
+import Footer from '../../components/Footer/footer'
+import Header from '../../components/Header/header'
 
 function Home() {
     return (
         <>
-        <ul>
-            <li>
-                <Link to='/consulta'>Consulta</Link>
-            </li>
-            <li>
-                <Link to='/cadastro'>Cadastro</Link>
-            </li>
-            <li>
-                <Link to='/sobre'>Sobre</Link>
-            </li>
-        </ul>
+            <Header />
             <h1>Home</h1>
+            <Footer />
+
     </>
     )
 }
