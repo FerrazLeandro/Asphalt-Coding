@@ -4,3 +4,9 @@
     border: 0;
     box-sizing: border-box
 }
+
+.carousel-item{
+    opacity: 0.5;
+}
+
+
