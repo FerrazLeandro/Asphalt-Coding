@@ -1,0 +1,19 @@
+img {
+    width: 100px;
+    justify-content: center;
+
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 4px black;
+}
+
+.card p, img {
+    display: flex;
+    justify-content: center;
+
+}
