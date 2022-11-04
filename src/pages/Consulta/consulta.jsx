@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Footer from "../../components/Footer/footer"
 import Header from "../../components/Header/header"
 import api from "../../services/api";
@@ -34,7 +35,8 @@ function Consulta() {
                                 <div className="card-body">
                                     <h5 className="card-title">{item.nome}</h5>
                                     <p className="card-text">{item.valor}</p>
-                                    <a tabindex="0" className="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Carro bolado" data-bs-content="habdfbfduhbauswfayfbrwtefyvfewtvfwtefvtefwvewtyfvewfytv">Detalhes</a>
+                                    {/* <a tabindex="0" className="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Carro bolado" data-bs-content="habdfbfduhbauswfayfbrwtefyvfewtvfwtefvtefwvewtyfvewfytv">Detalhes</a> */}
+                                    <Link className="btn btn-lg btn-danger" to={`/consultaDetalhes`} state={{data: item}}>Detalhes</Link>
                                 </div>
                             </div>
                         )}
