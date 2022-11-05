@@ -1,37 +1,30 @@
 img {
-    width: 100px;
-  
+  width: 100px;
 }
-#root{
-background-color:#38383a; } 
- .container{
-   background-color:black
-}
+
 
 .card {
-    display: inline-block;
-    margin: 10px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 1px 1px 4px black;
-    margin-left: 55px;
-  
+  display: inline-block;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 4px black;
+  margin-left: 55px;
+}
+
+.card p,
+img {
+  display: flex;
+  justify-content: center;
 
 }
 
-.card p, img {
-    display: flex;
-    justify-content: center;
-
-}
-.card-body{
-    text-align: center;
- 
+.card-body {
+  text-align: center;
 }
 
-  .card:hover{
-    box-shadow: 0 0 1em rgb(17, 204, 95);
-    cursor: pointer;
- 
-  }
+.card:hover {
+  box-shadow: 0 0 1em rgb(17, 204, 95);
+  cursor: pointer;
 
+}

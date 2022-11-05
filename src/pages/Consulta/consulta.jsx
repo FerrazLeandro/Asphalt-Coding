@@ -25,7 +25,7 @@ function Consulta() {
     return (
         <>
             <Header />
-            <div className="container w-100 p-3 align-items-center" >
+            <div className="container-fluid w-100 p-3 align-items-center" >
                 {produto.length > 0 ? (
                     <>
                         {produto.map((item) =>
