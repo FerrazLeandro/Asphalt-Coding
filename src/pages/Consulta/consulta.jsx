@@ -19,9 +19,9 @@ function Consulta() {
         const { data } = await api.get("/produtos")
         setProduto(data)
     }
-/*     const popover = new bootstrap.Popover('.example-popover', {
-        container: 'body' */
-      //})
+    /*     const popover = new bootstrap.Popover('.example-popover', {
+            container: 'body' */
+    //})
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
