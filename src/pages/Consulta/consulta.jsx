@@ -9,11 +9,9 @@ function Consulta() {
 
     const [item, setItem] = useState([])
 
-    console.log("Carregamento da função", item)
-
     useEffect(() => {
         getItem();
-        console.log("Passou no use effect", item)
+
     }, [])
     
     const deletarItem = async (id) => {
@@ -40,7 +38,7 @@ function Consulta() {
                                 <img src={carro.foto} className="card-img-top" alt="Imagem do carro" />
                                 <div className="card-body">
                                     <h5 className="card-title">{carro.modelo}</h5>
-                                    <p className="card-text">{carro.valor}</p>
+                                    <p className="card-text">R$: {carro.valor}</p>
                                     {/* <a tabindex="0" className="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Carro bolado" data-bs-content="habdfbfduhbauswfayfbrwtefyvfewtvfwtefvtefwvewtyfvewfytv">Detalhes</a> */}
                                     <Link className="btn btn-lg btn-primary" to={`/consultaDetalhes`} state={{data: carro}}>Detalhes</Link>
                                     <button type="button" className="btn btn-lg btn-danger"onClick={(e) => (deletarItem(carro.id))}>Excluir</button>
