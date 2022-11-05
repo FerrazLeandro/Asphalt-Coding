@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import Footer from "../../components/Footer/footer"
-import Formulario from "../../components/Formulario/formulario";
 import Header from "../../components/Header/header"
 import './consultaDetalhes.css'
 import api from "../../services/api"
@@ -16,7 +15,7 @@ function ConsultaDetalhes() {
     const [foto, setFoto] = useState("")
     
     useEffect(() => {
-        
+        console.log(item)
     }, [])
     
     const deletarItem = async () => {
@@ -42,11 +41,12 @@ function ConsultaDetalhes() {
             <div className="container">
             <form>
                 <div className="form-row">
-                    <div className="form-group col-md-6">
+                    <img src={item.foto} className="card-img-top" alt="carros" />
+                    <div className="form-group col-md-9">
                         <label htmlFor="modelo">Modelo</label>
                         <input type="text" className="form-control" id="modelo" placeholder={item.modelo} onChange={e => setModelo(e.target.value)}/>
                     </div>
-                    <div className="form-group col-md-6">
+                    <div className="form-group col-md-9">
                         <label htmlFor="marca">Marca</label>
                         <input type="text" className="form-control" id="marca" placeholder={item.marca} onChange={e => setMarca(e.target.value)}/>
                     </div>
@@ -62,7 +62,6 @@ function ConsultaDetalhes() {
                         <label htmlFor="ano">Foto</label>
                         <input type="text" className="form-control" id="foto" placeholder={item.foto} onChange={e => setFoto(e.target.value)}/>
                     </div>
-                    <img src={item.foto} className="card-img-top" alt="carros" />
                 </div>
                 <button type="button" className="btn btn-primary" onClick={atualizarItem}>Atualizar</button>
                 <button type="button" className="btn btn-primary"onClick={deletarItem}>Excluir</button>

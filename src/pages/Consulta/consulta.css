@@ -12,15 +12,9 @@ img {
   margin-left: 55px;
 }
 
-.card p,
-img {
-  display: flex;
-  justify-content: center;
-
-}
-
 .card-body {
   text-align: center;
+  color: black;
 }
 
 .card:hover {

@@ -1,4 +1,9 @@
 
-.card-img-top {
-    width: 40%;
+.form-row img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.form-group {
+    color: white;
 }

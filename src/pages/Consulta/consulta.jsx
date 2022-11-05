@@ -7,16 +7,23 @@ import './consulta.css'
 
 function Consulta() {
 
-    const [produto, setProduto] = useState([])
+    const [item, setItem] = useState([])
+
+    console.log("Carregamento da função", item)
 
     useEffect(() => {
-        getProduto();
-        console.log(produto)
+        getItem();
+        console.log("Passou no use effect", item)
     }, [])
+    
+    const deletarItem = async (id) => {
+        await api.delete(`/produtos/${id}`)
+        getItem();
+    }
 
-    const getProduto = async () => {
+    const getItem = async () => {
         const { data } = await api.get("/produtos")
-        setProduto(data)
+        setItem(data)
     }
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
@@ -26,16 +33,17 @@ function Consulta() {
         <>
             <Header />
             <div className="container-fluid w-100 p-3 align-items-center" >
-                {produto.length > 0 ? (
+                {item.length > 0 ? (
                     <>
-                        {produto.map((item) =>
-                            <div className="card" style={{ width: "18rem" }} key={item.id}>
-                                <img src={item.foto} className="card-img-top" alt="carros" />
+                        {item.map((carro) =>
+                            <div className="card" style={{ width: "18rem" }} key={carro.id}>
+                                <img src={carro.foto} className="card-img-top" alt="Imagem do carro" />
                                 <div className="card-body">
-                                    <h5 className="card-title">{item.nome}</h5>
-                                    <p className="card-text">{item.valor}</p>
+                                    <h5 className="card-title">{carro.modelo}</h5>
+                                    <p className="card-text">{carro.valor}</p>
                                     {/* <a tabindex="0" className="btn btn-lg btn-danger" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Carro bolado" data-bs-content="habdfbfduhbauswfayfbrwtefyvfewtvfwtefvtefwvewtyfvewfytv">Detalhes</a> */}
-                                    <Link className="btn btn-lg btn-danger" to={`/consultaDetalhes`} state={{data: item}}>Detalhes</Link>
+                                    <Link className="btn btn-lg btn-primary" to={`/consultaDetalhes`} state={{data: carro}}>Detalhes</Link>
+                                    <button type="button" className="btn btn-lg btn-danger"onClick={(e) => (deletarItem(carro.id))}>Excluir</button>
                                 </div>
                             </div>
                         )}

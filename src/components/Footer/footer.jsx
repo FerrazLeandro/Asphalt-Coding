@@ -3,6 +3,7 @@ import './footer.css'
 function Footer() {
     return (
         <>
+        <div className='fixed-bottom'>
             <footer className="bg-dark text-center text-white">
                 <div className="container p-4 pb-0">
 
@@ -42,6 +43,7 @@ function Footer() {
                     <a className="text-white" href="https://github.com/AnthonyBarbosa15/EcommerceReact"> Ecommerce React</a>
                 </div>
             </footer>
+            </div>
         </>
     )
 }
