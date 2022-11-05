@@ -13,28 +13,19 @@ function ConsultaDetalhes() {
     const [marca, setMarca] = useState("")
     const [valor, setValor] = useState("")
     const [ano, setAno] = useState("")
-    const [status, setStatus] = useState("")
 
     
     useEffect(() => {
-        console.log( "Use efect", item)
-
         
     }, [])
     
     const deletarItem = async () => {
         await api.delete(`/produtos/${item.id}`)
-        setItem("")
-        setModelo("")
-        setMarca("")
-        setValor("")
-        setAno("")
-        setStatus("")
     }
 
     const atualizarItem = async () => {
-       // const { data } = await api.put("/produtos/1")
-        console.log("Passou no delete", item)
+        await api.put(`/produtos/${item.id}`, item)
+        console.log("Passou no put", item)
     }
    
     return (
