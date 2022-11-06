@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
+import { FaTrash } from 'react-icons/fa';
 import './formularioConsultaDetalhes.css'
 import api from "../../services/api"
 
@@ -79,7 +80,7 @@ function FormularioConsultaDetalhes() {
                         </div>
                     </div>
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={atualizarItem}>Atualizar</button>
-                    <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={deletarItem}>Excluir</button>
+                    <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={deletarItem}><FaTrash /></button>
                 </form>
             </div>
         </>

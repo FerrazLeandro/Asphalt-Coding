@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Busca from "../Busca/busca";
 import api from "../../services/api";
 import './gridCards.css'
+import { FaTrash } from 'react-icons/fa';
+
 
 function GridCards() {
     const [item, setItem] = useState([])
@@ -11,7 +13,7 @@ function GridCards() {
 
     useEffect(() => {
         const resultados = itemFiltrado.filter(carro =>
-            carro.modelo.toLowerCase().includes(busca.toLowerCase()))
+            carro.veiculo.toLowerCase().includes(busca.toLowerCase()))
         setItem(resultados)
     }, [busca])
 
@@ -49,7 +51,7 @@ function GridCards() {
                                     <h5 className="card-text">Ano: {carro.ano}</h5>
                                     <h5 className="card-text">R$: {carro.valor}</h5>
                                     <Link className="btn btn-lg btn-primary" to={`/consultaDetalhes`} state={{ data: carro }}>Detalhes</Link>
-                                    <button type="button" className="btn btn-lg btn-danger" onClick={(e) => (deletarItem(carro.id))}>Excluir</button>
+                                    <button type="button" className="btn btn-lg btn-danger" onClick={(e) => (deletarItem(carro.id))}><FaTrash /></button>
                                 </div>
                             </div>
                         )}
