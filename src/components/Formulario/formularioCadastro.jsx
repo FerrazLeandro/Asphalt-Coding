@@ -10,7 +10,7 @@ function FormularioCadastro() {
     const [marca, setMarca] = useState("")
     const [valor, setValor] = useState("")
     const [ano, setAno] = useState("")
-    const [foto, setFoto] = useState("")
+    const [foto, setFoto] = useState("https://i.pinimg.com/originals/5b/ac/0a/5bac0a81ff4f4e5fc957c3c468b72a6f.png")
 
     useEffect(() => {
     }, [])
@@ -35,7 +35,7 @@ function FormularioCadastro() {
                         <img src={foto} className="card-img-top" alt="Imagem do carro" />
                         <div className="form-group col-md-9">
                             <label htmlFor="modelo">Modelo</label>
-                            <input type="text" className="form-control" id="modelo" placeholder="Modelo" onChange={e => setModelo(e.target.value)} />
+                            <input type="text" className="form-control" id="modelo" placeholder="Modelo" onChange={e => setModelo(e.target.value)} required/>
                         </div>
                         <div className="form-group col-md-9">
                             <label htmlFor="marca">Marca</label>
