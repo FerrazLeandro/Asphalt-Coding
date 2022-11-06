@@ -1,0 +1,24 @@
+img {
+  width: 100px;
+}
+
+
+.card {
+  display: inline-block;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 4px black;
+  margin-left: 55px;
+}
+
+.card-body {
+  text-align: center;
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 0 0 1em rgb(17, 204, 95);
+  cursor: pointer;
+
+}
