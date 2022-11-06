@@ -20,12 +20,12 @@ function GridCards() {
     }, [])
 
     const deletarItem = async (id) => {
-        await api.delete(`/produtos/${id}`)
+        await api.delete(`/carros/${id}`)
         getItem();
     }
 
     const getItem = async () => {
-        const { data } = await api.get("/produtos")
+        const { data } = await api.get("/carros")
         setItem(data)
         setItemFiltrado(data)
     }
@@ -43,8 +43,9 @@ function GridCards() {
                             <div className="card" style={{ width: "18rem" }} key={carro.id}>
                                 <img src={carro.foto} className="card-img-top" alt="Imagem do carro" />
                                 <div className="card-body">
-                                    <h4 className="card-title">{carro.modelo}</h4>
-                                    <h5 className="card-text">{carro.marca}</h5>
+                                    <h4 className="card-title">{carro.veiculo}</h4>
+                                    <h5 className="card-title">{carro.modelo}</h5>
+                                    <h5 className="card-text">{carro.fabricante}</h5>
                                     <h5 className="card-text">Ano: {carro.ano}</h5>
                                     <h5 className="card-text">R$: {carro.valor}</h5>
                                     <Link className="btn btn-lg btn-primary" to={`/consultaDetalhes`} state={{ data: carro }}>Detalhes</Link>
