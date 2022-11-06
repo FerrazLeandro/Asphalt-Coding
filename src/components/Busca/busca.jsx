@@ -1,9 +1,10 @@
+const Busca = ({ value, onChange }) => {
 
-const SearchInput = ({ value, onChange }) => {
     function handleChange(event) {
         onChange(event.target.value)
 
     }
+
     return (
         <div className="container">
             <form className="d-flex" role="search">
@@ -15,13 +16,9 @@ const SearchInput = ({ value, onChange }) => {
                     value={value}
                     onChange={handleChange}
                 />
-                <button className="btn btn-outline-success"
-                    type="submit">
-                    Buscar
-                </button>
             </form>
         </div>
     );
 }
 
-export default SearchInput;
+export default Busca;

@@ -1,9 +1,6 @@
 import { useLocation } from "react-router-dom"
 
 function Formulario() {
-    //const { state } = useLocation()
-    //console.log(" formulario " + state.data)
-
     return (
         <>
             <form>

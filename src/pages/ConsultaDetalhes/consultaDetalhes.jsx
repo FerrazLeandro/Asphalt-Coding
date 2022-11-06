@@ -4,7 +4,8 @@ import Footer from "../../components/Footer/footer"
 import Header from "../../components/Header/header"
 import './consultaDetalhes.css'
 import api from "../../services/api"
-import Modal from "./Modal/Modal";
+import Modal from "../../components/Modal/Modal";
+
 
 function ConsultaDetalhes() {
     const { state } = useLocation()
@@ -46,8 +47,6 @@ function ConsultaDetalhes() {
         setMensagem("Dados atualizados com sucesso!")
     }
 
-
-
     return (
         <>
             <Header />
@@ -78,13 +77,9 @@ function ConsultaDetalhes() {
                     </div>
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={atualizarItem}>Atualizar</button>
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={deletarItem}>Excluir</button>
-
-
-
-                   <Modal />
-
                 </form>
             </div>
+            <Modal />
             <Footer />
         </>
     )
