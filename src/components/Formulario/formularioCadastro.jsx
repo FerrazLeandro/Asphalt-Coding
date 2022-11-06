@@ -11,7 +11,7 @@ function FormularioCadastro() {
     const [fabricante, setFabricante] = useState("")
     const [valor, setValor] = useState("")
     const [ano, setAno] = useState("")
-    const [foto, setFoto] = useState("https://i.pinimg.com/originals/5b/ac/0a/5bac0a81ff4f4e5fc957c3c468b72a6f.png")
+    const [foto, setFoto] = useState("https://cdn-icons-png.flaticon.com/512/3774/3774278.png")
 
     useEffect(() => {
     }, [])
@@ -34,7 +34,7 @@ function FormularioCadastro() {
             <div className="container">
                 <form>
                     <div className="form-row">
-                        <img src={foto} className="card-img-top" alt="Imagem do carro" />
+                        <img src={foto} className="card-img-top w-25" alt="Imagem do carro" />
                         <div className="form-group col-md-9">
                             <label htmlFor="veiculo">Veículo</label>
                             <input type="text" className="form-control" id="veiculo" placeholder="Veiculo" onChange={e => setVeiculo(e.target.value)} required/>
