@@ -15,7 +15,7 @@ function Modal() {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            <p>O carro foi atualizado :P</p>
+                            <p>Operação realizada com sucesso!</p>
                         </div>
                         <div className="modal-footer">
                             <button className="btn btn-lg btn-primary" data-bs-dismiss="modal" onClick={voltarConsulta}>Voltar para consulta</button>

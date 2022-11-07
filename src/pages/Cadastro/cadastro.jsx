@@ -1,5 +1,6 @@
 import Header from "../../components/Header/header"
 import Footer from "../../components/Footer/footer"
+import Modal from "../../components/Modal/Modal";
 import FormularioCadastro from "../../components/Formulario/formularioCadastro";
 import './cadastro.css'
 
@@ -8,6 +9,7 @@ function Cadastro() {
         <>
             <Header />
             <FormularioCadastro />
+            <Modal />
             <Footer />
         </>
     )

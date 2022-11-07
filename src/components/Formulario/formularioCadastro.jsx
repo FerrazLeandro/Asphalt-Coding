@@ -62,7 +62,7 @@ function FormularioCadastro() {
                             <input type="text" className="form-control" id="foto" placeholder="Url da foto" onChange={e => setFoto(e.target.value)} />
                         </div>
                     </div>
-                    <button type="button" className="btn btn-primary" onClick={cadastrarItem}>Cadastrar</button>
+                    <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={cadastrarItem}>Cadastrar</button>
                 </form>
             </div>
         </>

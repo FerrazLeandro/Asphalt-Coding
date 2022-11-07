@@ -1,0 +1,227 @@
+[
+ {
+  "veiculo": "Bugatti Escalade",
+  "fabricante": "BMW",
+  "modelo": "Durango",
+  "valor": "9.585.075,00",
+  "ano": "2017",
+  "foto": "https://images.pexels.com/photos/10017333/pexels-photo-10017333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "id": "13"
+ },
+ {
+  "veiculo": "Ghost",
+  "fabricante": "ROLLS-ROYCE",
+  "modelo": "Sedan",
+  "valor": "2.700.000,00",
+  "ano": "2022",
+  "foto": "https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "id": "15"
+ },
+ {
+  "veiculo": "Aventador",
+  "fabricante": "Lamborghini",
+  "modelo": "Esportivo",
+  "valor": "4.178.209,00",
+  "ano": "2023",
+  "foto": "https://images.pexels.com/photos/3972755/pexels-photo-3972755.jpeg",
+  "id": "16"
+ },
+ {
+  "veiculo": "Urus",
+  "fabricante": "Lamborghini",
+  "modelo": "Suv",
+  "valor": "3.420.305,00",
+  "ano": "2018",
+  "foto": "https://1.bp.blogspot.com/-UioiqiaJHE4/X3HbyO1XyhI/AAAAAAAAjfM/h3zt-6PxoE8NyJRZ0wR3GwrI0vMmGUzwQCLcBGAsYHQ/s2048/Lamborghini-Urus-2021%2B%25284%2529.jpg",
+  "id": "17"
+ },
+ {
+  "veiculo": "Dodge Challenger ",
+  "fabricante": "Dodge",
+  "modelo": "Coupe",
+  "valor": "409.000,00",
+  "ano": "2010",
+  "foto": "https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg",
+  "id": "18"
+ },
+ {
+  "veiculo": "R8",
+  "fabricante": "Audi",
+  "modelo": "Coupe",
+  "valor": "1.659.990,00",
+  "ano": "2012",
+  "foto": "https://cdn.motor1.com/images/mgl/Oov9AB/s1/4x3/2022-audi-r8-v10-performance-rwd-exterior.webp",
+  "id": "20"
+ },
+ {
+  "veiculo": "a110",
+  "fabricante": "Alpine",
+  "modelo": "Esportivo",
+  "valor": "309.690,00",
+  "ano": "2017",
+  "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Alpine_A110_%2844996216524%29.jpg/1200px-Alpine_A110_%2844996216524%29.jpg",
+  "id": "21"
+ },
+ {
+  "veiculo": "Drako GTE",
+  "fabricante": "Drako motors",
+  "modelo": "Sedan",
+  "valor": "6.118.920,00",
+  "ano": "2020",
+  "foto": "https://cdn.motor1.com/images/mgl/YAAWwJ/s1/20.webp",
+  "id": "22"
+ },
+ {
+  "veiculo": "De Tomaso P72",
+  "fabricante": "Ford",
+  "modelo": "Esportivo",
+  "valor": "6.628.830,00",
+  "ano": "2019",
+  "foto": "https://cdn.motor1.com/images/mgl/KbnALR/s1/de-tomaso-p72.webp",
+  "id": "23"
+ },
+ {
+  "veiculo": "LaFerrari",
+  "fabricante": "Ferrari",
+  "modelo": "Esportivo",
+  "valor": "6.628.830,00",
+  "ano": "2013",
+  "foto": "https://cdn.motor1.com/images/mgl/2PgYn/s1/ferrari-laferrari.webp",
+  "id": "24"
+ },
+ {
+  "veiculo": "Elva",
+  "fabricante": "Pagani",
+  "modelo": "Coupe",
+  "valor": "7.138.740,00",
+  "ano": "2019",
+  "foto": "https://cdn.motor1.com/images/mgl/39ygL/s1/pagani-huayra.webp",
+  "id": "26"
+ },
+ {
+  "veiculo": " IE -Intensa Emozione",
+  "fabricante": "Apollo",
+  "modelo": "Esportivo",
+  "valor": "2.700.000,00",
+  "ano": "2019",
+  "foto": "https://asphalt9.info/wp-content/uploads/2020/12/Apollo-IE.jpg",
+  "id": "27"
+ },
+ {
+  "veiculo": "Elva",
+  "fabricante": "McLaren",
+  "modelo": "Esportivo",
+  "valor": "8.668.470,00",
+  "ano": "2014",
+  "foto": "https://cdn.motor1.com/images/mgl/XPWO2/s1/mclaren-elva.webp",
+  "id": "28"
+ },
+ {
+  "veiculo": "21C",
+  "fabricante": "Czinger",
+  "modelo": "Esportivo",
+  "valor": "8.668.470,00",
+  "ano": "2014",
+  "foto": "https://cdn.motor1.com/images/mgl/qkkgyG/s1/czinger-21c.webp",
+  "id": "30"
+ },
+ {
+  "veiculo": "Gemera",
+  "fabricante": "Koenigsegg",
+  "modelo": "Esportivo",
+  "valor": "8.668.470,00",
+  "ano": "2019",
+  "foto": "https://cdn.motor1.com/images/mgl/NGGZon/s1/koenigsegg-gemera.webp",
+  "id": "31"
+ },
+ {
+  "veiculo": "TSR-S",
+  "fabricante": "Zenvo",
+  "modelo": "Esportivo",
+  "valor": "8.668.470,00",
+  "ano": "2018",
+  "foto": "https://cdn.motor1.com/images/mgl/QeeWgN/s1/zenvo-tsr-s.webp",
+  "id": "32"
+ },
+ {
+  "veiculo": "Venom F5",
+  "fabricante": "Hennessey",
+  "modelo": "Esportivo",
+  "valor": "9.178.380,00",
+  "ano": "2018",
+  "foto": "https://cdn.motor1.com/images/mgl/eooYnN/s1/hennessey-venom-f5.webp",
+  "id": "33"
+ },
+ {
+  "veiculo": "Bacalar",
+  "fabricante": "Bentley",
+  "modelo": "Esportivo",
+  "valor": "9.178.380,00",
+  "ano": "2018",
+  "foto": "https://cdn.motor1.com/images/mgl/JPGqE/s1/bentley-bacalar.webp",
+  "id": "34"
+ },
+ {
+  "veiculo": " Martin Victor",
+  "fabricante": "Aston",
+  "modelo": "Esportivo",
+  "valor": "15.297.300,00",
+  "ano": "2021",
+  "foto": "https://cdn.motor1.com/images/mgl/WmLWo/s1/aston-martin-victor-static.webp",
+  "id": "35"
+ },
+ {
+  "veiculo": "Lykan Hypersport",
+  "fabricante": "W Motors",
+  "modelo": "Esportivo",
+  "valor": "17.336.940,00",
+  "ano": "2013",
+  "foto": "https://cdn.motor1.com/images/mgl/qjmoq/s1/w-motors-lykan-hypersport.webp",
+  "id": "36"
+ },
+ {
+  "veiculo": "Chiron Super Sport 300+",
+  "fabricante": "Bugatti",
+  "modelo": "Esportivo",
+  "valor": "19.886.490,00",
+  "ano": "2013",
+  "foto": "https://cdn.motor1.com/images/mgl/NklL9/s1/most-expensive-cars.webp",
+  "id": "37"
+ },
+ {
+  "veiculo": "Maybach Exelero",
+  "fabricante": "Mercedes",
+  "modelo": "Esportivo",
+  "valor": "40.792.800.00",
+  "ano": "2004",
+  "foto": "https://cdn.motor1.com/images/mgl/nEKy6/s1/mercedes-maybach-exelero.webp",
+  "id": "38"
+ },
+ {
+  "veiculo": "La Voiture Noire",
+  "fabricante": "Bugatti",
+  "modelo": "Esportivo",
+  "valor": "95.353.170,00",
+  "ano": "2004",
+  "foto": "https://cdn.motor1.com/images/mgl/oz2j0/s1/bugatti-la-voiture-noire.webp",
+  "id": "39"
+ },
+ {
+  "veiculo": "Boat Tail",
+  "fabricante": "Rolls-Royce",
+  "modelo": "Sedan",
+  "valor": "142.774.800,00",
+  "ano": "2017",
+  "foto": "https://s2.glbimg.com/LiseRX3PgTwBcxk0E5Vmn8KcEn0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2022/T/O/B1QIAoQuW1Roi9TVMaKQ/rolls-royceboattail-thenextchapterlakecomo-11.jpg",
+  "id": "40"
+ },
+ {
+  "veiculo": "Corvette",
+  "fabricante": "Chevrolet",
+  "modelo": "Esportivo",
+  "valor": "1.590.000,00",
+  "ano": "2017",
+  "foto": "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "id": "41"
+ }
+]
