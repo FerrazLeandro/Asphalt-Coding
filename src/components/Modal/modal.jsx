@@ -1,6 +1,10 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 function Modal() {
+    const navegar = useNavigate()
+    const voltarConsulta = () => {
+        navegar("/consulta")
+    }
     return (
         <>
             <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -14,7 +18,7 @@ function Modal() {
                             <p>O carro foi atualizado :P</p>
                         </div>
                         <div className="modal-footer">
-                            <Link className="btn btn-lg btn-primary" to={`/consulta`}>Voltar para consulta</Link>
+                            <button className="btn btn-lg btn-primary" data-bs-dismiss="modal" onClick={voltarConsulta}>Voltar para consulta</button>
                         </div>
                     </div>
                 </div>
