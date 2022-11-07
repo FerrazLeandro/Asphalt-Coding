@@ -20,7 +20,7 @@ Pelo menos um filtro - filtrar uma lista de produtos por exemplo, ou uma categor
 - Tela de Login levando para uma rota Restrita
 
 
-`Tecnologias utilizadas:`<br>
+## Tecnologias utilizadas:<br>
 - Visual Studio Code
 -  React
 -  Java Script
