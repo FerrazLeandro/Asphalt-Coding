@@ -11,8 +11,7 @@ function Modal() {
                 <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Dados atualizados com sucesso</h5>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h5 className="modal-title" id="exampleModalLabel">Asphalt Coding</h5>
                         </div>
                         <div className="modal-body">
                             <p>Operação realizada com sucesso!</p>

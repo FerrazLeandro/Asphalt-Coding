@@ -35,7 +35,7 @@ function FormularioCadastro() {
                 <form>
                     <div className="form-row">
                         <div className="form-group col-md-12 d-flex justify-content-center">
-                            <img src={foto} className="card-img-top w-25" alt="Imagem do carro" />
+                            <img src={foto} className="card-img-top w-50" alt="Imagem do carro" />
                         </div>
                         <div className="form-group col-md-5 d-inline-block m-3">
                             <label htmlFor="veiculo">Veículo</label>
