@@ -38,7 +38,7 @@ function Footer() {
 
                     <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
                         © 2022 Copyright:
-                        <a className="text-white" href="https://github.com/AnthonyBarbosa15/EcommerceReact"> Ecommerce React</a>
+                        <a className="text-white" href="https://github.com/AnthonyBarbosa15/EcommerceReact"> Asphalt Coding</a>
                     </div>
                 </footer>
             </div>

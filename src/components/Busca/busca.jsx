@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { FaCar } from 'react-icons/fa';
+
 const Busca = ({ value, onChange }) => {
 
     function handleChange(event) {
@@ -16,6 +19,8 @@ const Busca = ({ value, onChange }) => {
                     value={value}
                     onChange={handleChange}
                 />
+                <Link className="btn btn-lg btn-primary" to={`/cadastro`}><FaCar />Cadastrar</Link>
+
             </form>
         </div>
     );

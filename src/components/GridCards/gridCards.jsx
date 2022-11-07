@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Busca from "../Busca/busca";
 import api from "../../services/api";
 import './gridCards.css'
-import { FaTrash } from 'react-icons/fa';
+import { FaTrash, FaCar } from 'react-icons/fa';
 
 
 function GridCards() {
@@ -43,7 +43,7 @@ function GridCards() {
                     <>
                         {item.map((carro) =>
                             <div className="card" style={{ width: "18rem" }} key={carro.id}>
-                                <img src={carro.foto} className="card-img-top" alt="Imagem do carro" />
+                                <img className="card-imagem card-img-top" src={carro.foto} alt="Imagem do carro" />
                                 <div className="card-body">
                                     <h4 className="card-title">{carro.veiculo}</h4>
                                     <h5 className="card-title">{carro.modelo}</h5>
@@ -51,7 +51,7 @@ function GridCards() {
                                     <h5 className="card-text">Ano: {carro.ano}</h5>
                                     <h5 className="card-text">R$: {carro.valor}</h5>
                                     <Link className="btn btn-lg btn-primary" to={`/consultaDetalhes`} state={{ data: carro }}>Detalhes</Link>
-                                    <button type="button" className="btn btn-lg btn-danger" onClick={(e) => (deletarItem(carro.id))}><FaTrash /></button>
+                                    <button type="button" className="btn btn-lg btn-danger" onClick={(e) => (deletarItem(carro.id))}>Excluir</button>
                                 </div>
                             </div>
                         )}
