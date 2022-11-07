@@ -53,7 +53,7 @@ function FormularioConsultaDetalhes() {
             <div className="container-detalhes container">
                 <form>
                     <div className="form-row">
-                        <img src={item.foto} className="card-img-top" alt="carros" />
+                        <img src={item.foto} className="card-img-top w-100" alt="carros" />
                         <div className="form-group col-md-5 d-inline-block m-3">
                             <label htmlFor="veiculo">Veículo</label>
                             <input type="text" className="form-control" id="veiculo" placeholder={item.veiculo} onChange={e => setVeiculoAlterado(e.target.value)} value={veiculoAlterado} />
