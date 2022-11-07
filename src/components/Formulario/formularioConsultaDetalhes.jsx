@@ -50,37 +50,37 @@ function FormularioConsultaDetalhes() {
 
     return (
         <>
-            <div className="container">
+            <div className="container-detalhes container">
                 <form>
                     <div className="form-row">
                         <img src={item.foto} className="card-img-top" alt="carros" />
-                        <div className="form-group col-md-9">
+                        <div className="form-group col-md-5 d-inline-block m-3">
                             <label htmlFor="veiculo">Veículo</label>
                             <input type="text" className="form-control" id="veiculo" placeholder={item.veiculo} onChange={e => setVeiculoAlterado(e.target.value)} value={veiculoAlterado} />
                         </div>
-                        <div className="form-group col-md-9">
+                        <div className="form-group col-md-5 d-inline-block m-3">
                             <label htmlFor="modelo">Modelo</label>
                             <input type="text" className="form-control" id="modelo" placeholder={item.modelo} onChange={e => setModeloAlterado(e.target.value)} value={modeloAlterado} />
                         </div>
-                        <div className="form-group col-md-9">
+                        <div className="form-group col-md-5 d-inline-block m-3">
                             <label htmlFor="fabricante">Fabricante</label>
                             <input type="text" className="form-control" id="fabricante" placeholder={item.fabricante} onChange={e => setFabricanteAlterado(e.target.value)} value={fabricanteAlterado} />
                         </div>
-                        <div className="form-group col-md-6">
+                        <div className="form-group col-md-1 d-inline-block m-3">
+                            <label htmlFor="ano">Ano</label>
+                            <input type="number" className="form-control" id="ano" placeholder={item.ano} onChange={e => setAnoAlterado(e.target.value)} value={anoAlterado} />
+                        </div>
+                        <div className="form-group col-md-2 d-inline-block m-3">
                             <label htmlFor="valor">Valor</label>
                             <input type="text" className="form-control" id="valor" placeholder={item.valor} onChange={e => setValorAlterado(e.target.value)} value={valorAlterado} />
                         </div>
-                        <div className="form-group col-md-6">
-                            <label htmlFor="ano">Ano</label>
-                            <input type="text" className="form-control" id="ano" placeholder={item.ano} onChange={e => setAnoAlterado(e.target.value)} value={anoAlterado} />
-                        </div>
-                        <div className="form-group col-md-6">
+                        <div className="form-group col-md-9 m-3">
                             <label htmlFor="foto">Foto</label>
                             <input type="text" className="form-control" id="foto" placeholder={item.foto} onChange={e => setFotoAlterado(e.target.value)} value={fotoAlterado} />
                         </div>
                     </div>
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={atualizarItem}>Atualizar</button>
-                    <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={deletarItem}><FaTrash /></button>
+                    <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={deletarItem}>Excluir</button>
                 </form>
             </div>
         </>
