@@ -10,27 +10,27 @@ function Footer() {
                     <div className="container p-4 pb-0">
 
                         <section className="mb-4">
-                            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                            <a className="icones btn btn-outline-light btn-floating m-1" href="#!" role="button">
                                 <FaFacebook />
                             </a>
                             
-                            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                            <a className="icones btn btn-outline-light btn-floating m-1" href="#!" role="button">
                                 <FaTwitter />
                             </a>
 
-                            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                            <a className="icones btn btn-outline-light btn-floating m-1" href="#!" role="button">
                                 <FaGoogle />
                             </a>
 
-                            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                            <a className="icones btn btn-outline-light btn-floating m-1" href="#!" role="button">
                                 <FaInstagram />
                             </a>
 
-                            <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                            <a className="icones btn btn-outline-light btn-floating m-1" href="#!" role="button">
                                 <FaLinkedin />
                             </a>
 
-                            <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/AnthonyBarbosa15/EcommerceReact" role="button">
+                            <a className="icones btn btn-outline-light btn-floating m-1" href="https://github.com/AnthonyBarbosa15/EcommerceReact" role="button">
                                 <FaGithub />
                             </a>
                         </section>

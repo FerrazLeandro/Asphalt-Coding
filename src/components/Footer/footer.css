@@ -8,5 +8,10 @@
 
 
 a:hover {
-    text-shadow: 0 0 1em rgb(17, 204, 95);;
+    text-shadow: 0 0 1em rgb(17, 204, 95);
 }
+
+.icones:hover {
+    box-shadow: 0 0 1em rgb(17, 204, 95);
+}
+
