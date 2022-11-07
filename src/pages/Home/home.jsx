@@ -5,7 +5,6 @@ import Carrossel from '../../components/Carrossel/carrossel'
 import Video from '../../components/Video/video'
 
 
-
 function Home() {
     return (
         <div className='home'>
