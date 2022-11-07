@@ -17,22 +17,22 @@ function Carrossel() {
                             </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active" data-bs-interval="10000">
-                                    <img src={imgCarro1} className="d-block w-100" alt="..." />
-                                    <div className="carousel-caption d-none d-md-block">
+                                    <img src={imgCarro1} className="d-block w-100" alt="imagem de um carro" />
+                                    <div className="carousel-caption  d-md-block">
                                         <h1>Segurança</h1>
                                         <h2>Pode confiar 10 anos de mercado</h2>
                                     </div>
                                 </div>
                                 <div className="carousel-item" data-bs-interval="2000">
-                                    <img src={imgCarro2} className="d-block w-100" alt="..." />
-                                    <div className="carousel-caption d-none d-md-block">
+                                    <img src={imgCarro2} className="d-block w-100" alt="imagem de um carro" />
+                                    <div className="carousel-caption  d-md-block">
                                         <h1>Variedade</h1>
                                         <h2>De Fusca a Ferrari</h2>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={imgCarros3} className="d-block w-100" alt="..." />
-                                    <div className="carousel-caption d-none d-md-block">
+                                    <img src={imgCarros3} className="d-block w-100" alt="imagem de um carro" />
+                                    <div className="carousel-caption  d-md-block">
                                         <h1>Custo beneficio</h1>
                                         <h2>Pague com seu salário de DEV em 10x</h2>
                                     </div>

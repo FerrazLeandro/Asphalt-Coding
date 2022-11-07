@@ -1,4 +1,14 @@
 .video{
-    min-width: 900px;
-    min-height: 300px;
+    min-width: 80%;
+    min-height: 400px;
 }
+
+@media screen and    (max-width:905px){
+ 
+   .video  {
+        min-width: 70%;
+     min-height: 250px;
+    
+    }
+   
+   }
