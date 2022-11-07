@@ -10,13 +10,10 @@ function Header() {
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
             <li className="nav-item">
-                <Link className="nav-link" to='/'>Ecommerce React</Link>
+                <Link className="nav-link" to='/'>Car React</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to='/consulta'>Consulta</Link>
-            </li>
-            <li className="nav-item">
-                <Link className="nav-link" to='/cadastro'>Cadastro</Link>
+                <Link className="nav-link" to='/consulta'>Carros</Link>
             </li>
             <li className="nav-item">
                 <Link className="nav-link" to='/sobre'>Sobre</Link>
