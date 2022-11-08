@@ -1,4 +1,3 @@
-import VLibras from "vlibras-react";
 import Footer from "../../components/Footer/footer"
 import GridCards from "../../components/GridCards/gridCards"
 import Header from "../../components/Header/header"
@@ -9,7 +8,6 @@ function Consulta() {
     return (
         <>
             <Header />
-            <VLibras forceOnload={true}/>
             <GridCards />
             <Modal />
             <Footer />
