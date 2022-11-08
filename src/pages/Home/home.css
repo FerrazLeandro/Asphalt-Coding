@@ -4,10 +4,16 @@
     border: 0;
     box-sizing: border-box;
 }
-
+body{
+    overflow-x: hidden;
+}
 .home {
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
+    width: 99.9%;
 }
 
 @media screen and (max-width:1150px){

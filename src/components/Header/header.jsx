@@ -24,7 +24,6 @@ function Header() {
             </nav>
             {/* 
             <nav className="navbarr ">
-
                     <Link className="nav-link" to='/'>Ecommerce React</Link>
                         <Link className="nav-link" to='/consulta'>Consulta</Link>
                         <Link className="nav-link" to='/cadastro'>Cadastro</Link>
