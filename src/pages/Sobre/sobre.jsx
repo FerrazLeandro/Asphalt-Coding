@@ -51,7 +51,7 @@ function Sobre() {
                                 <div className="card w-100 p-0">
                                     <div className="card-header">
                                         <a className="collapsed btn btn-dark w-100" data-bs-toggle="collapse" href="#collapseFour">
-                                            <h2>Cleiver Souza</h2>
+                                            <h2>Cleiver Soares</h2>
                                         </a>
                                     </div>
                                     <div id="collapseFour" className="collapse" data-bs-parent="#accordion">
