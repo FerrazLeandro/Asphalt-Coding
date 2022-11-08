@@ -38,12 +38,6 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes dependências
 
 `npm install react-router-dom@6`
 
-`npm install axios`
-
-`npm install react-icons --save`
-
-`npm install vlibras-react`
-
 `npm run dev`
 
 
