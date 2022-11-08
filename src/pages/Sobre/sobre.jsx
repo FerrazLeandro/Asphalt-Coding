@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-import VLibras from "vlibras-react"
 import Footer from "../../components/Footer/footer"
 import Header from "../../components/Header/header"
 import './sobre.css'
@@ -8,7 +6,6 @@ function Sobre() {
     return (
         <>
             <Header />
-            <VLibras forceOnload={true}/>
             <div className="fundo">
                 <div className="container">
                     <div className="row align-items-center">
