@@ -19,7 +19,8 @@ function FormularioCadastro() {
     }
 
     const cadastrarItem = async (e) => {
-        if (veiculo != "" & modelo != "" & fabricante != "" &  ano != "" & valor != "" & foto != "https://cdn-icons-png.flaticon.com/512/3774/3774278.png") {
+
+        if (veiculo != "" & modelo != "" & fabricante != "" & ano != "" & valor != "" & foto != "https://cdn-icons-png.flaticon.com/512/3774/3774278.png") {
             e.preventDefault();
 
             const itemAtualizado = {

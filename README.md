@@ -32,9 +32,9 @@ Pelo menos um filtro - filtrar uma lista de produtos por exemplo, ou uma categor
 | :---: | :---: | :---: | :---: | :---: |
 
 
-## Variáveis de Ambiente
+## Dependências de Ambiente
 
-Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis dentro terminal da pasta do projeto;
+Para rodar esse projeto, você vai precisar adicionar as seguintes dependências dentro terminal da pasta do projeto;
 
 `npm install react-router-dom@6`
 
@@ -42,7 +42,11 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 
 `npm install react-icons --save`
 
+`npm install vlibras-react`
+
 `npm run dev`
+
+
 
 
 
