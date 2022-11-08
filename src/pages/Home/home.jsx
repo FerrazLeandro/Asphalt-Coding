@@ -10,8 +10,8 @@ function Home() {
     return (
         <div className='home'>
             <Header />
-            <Carrossel />
             <Video />
+            <Carrossel />
             <Mapa />
             <Footer />
         </div>
