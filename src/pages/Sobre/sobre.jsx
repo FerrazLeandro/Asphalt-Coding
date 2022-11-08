@@ -6,8 +6,8 @@ import './sobre.css'
 function Sobre() {
     return (
         <>
+            <Header />
             <div className="fundo">
-                <Header />
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-sm w-80 p-3 align-items-center ">
