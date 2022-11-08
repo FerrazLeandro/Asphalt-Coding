@@ -33,33 +33,34 @@ function GridCards() {
 
     return (
         <>
-        <div className="id"></div>
-            <Busca 
-                value={busca}
-                onChange={(search) => setBusca(search)}
-                
-            />
-            <div className="container-fluid w-100 p-3 align-items-center" >
-                {item.length > 0 ? (
-                    <>
-                        {item.map((carro) =>
-                            <div className="card" style={{ width: "18rem" }} key={carro.id}>
-                                <img className="card-imagem card-img-top" src={carro.foto} alt="Imagem do carro" />
-                                <div className="card-body">
-                                    <h4 className="card-title">{carro.veiculo}</h4>
-                                    <h5 className="card-title">{carro.modelo}</h5>
-                                    <h5 className="card-text">{carro.fabricante}</h5>
-                                    <h5 className="card-text">Ano: {carro.ano}</h5>
-                                    <h5 className="card-text">R$: {carro.valor}</h5>
-                                    <Link className="btn btn-lg btn-primary" to={`/consultaDetalhes`} state={{ data: carro }}>Detalhes</Link>
-                                    <button type="button" className="btn btn-lg btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={(e) => (deletarItem(carro.id))}>Excluir</button>
+            <div className="cartoes">
+                <Busca
+                    value={busca}
+                    onChange={(search) => setBusca(search)}
+
+                />
+                <div className="container-fluid w-100 p-3 align-items-center" >
+                    {item.length > 0 ? (
+                        <>
+                            {item.map((carro) =>
+                                <div className="card" style={{ width: "18rem" }} key={carro.id}>
+                                    <img className="card-imagem card-img-top" src={carro.foto} alt="Imagem do carro" />
+                                    <div className="card-body">
+                                        <h4 className="card-title">{carro.veiculo}</h4>
+                                        <h5 className="card-title">{carro.modelo}</h5>
+                                        <h5 className="card-text">{carro.fabricante}</h5>
+                                        <h5 className="card-text">Ano: {carro.ano}</h5>
+                                        <h5 className="card-text">R$: {carro.valor}</h5>
+                                        <Link className="btn btn-lg btn-primary" to={`/consultaDetalhes`} state={{ data: carro }}>Detalhes</Link>
+                                        <button type="button" className="btn btn-lg btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={(e) => (deletarItem(carro.id))}>Excluir</button>
+                                    </div>
                                 </div>
-                            </div>
-                        )}
-                    </>
-                ) : (
-                    <p>Carregando ...</p>
-                )}
+                            )}
+                        </>
+                    ) : (
+                        <p>Carregando ...</p>
+                    )}
+                </div>
             </div>
         </>
     )
