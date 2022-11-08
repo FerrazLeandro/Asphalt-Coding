@@ -50,7 +50,7 @@ function FormularioConsultaDetalhes() {
 
     return (
         <>
-            <div className="container-detalhes container">
+            <div className="container-detalhes container mt-5">
                 <form>
                     <div className="form-row">
                         <img src={item.foto} className="card-img-top w-100" alt="carros" />

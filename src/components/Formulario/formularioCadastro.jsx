@@ -31,7 +31,7 @@ function FormularioCadastro() {
 
     return (
         <>
-            <div className="container-detalhes container">
+            <div className="container-detalhes container mt-5">
                 <form>
                     <div className="form-row">
                         <div className="form-group col-md-12 d-flex justify-content-center">
