@@ -1,23 +1,5 @@
-/* h1 {
-    color: white;
-    margin-top: 38px;
-}
-
-.video {
-    width: 80vw;
-    height: 70vh;
-} */
-
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
-
 .video-background-holder {
-  margin-top: 47px;
+    margin-top: 23px;
     position: relative;
     background-color: black;
     height: calc(100vh - 72px);
@@ -56,14 +38,6 @@
     opacity: 0.5;
     z-index: 1;
   }
-  
-  /*
-  *
-  * ==========================================
-  * FOR DEMO PURPOSES
-  * ==========================================
-  *
-  */
   
   code {
     padding: 0 0.15rem;
