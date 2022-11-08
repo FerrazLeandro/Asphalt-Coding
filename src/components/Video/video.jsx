@@ -11,7 +11,7 @@ function Video() {
                 <div className="video-background-content container h-100">
                     <div className="d-flex h-100 text-center align-items-center">
                         <div className="w-100 text-white">
-                            <h1 className="display-4">Apresentamos...</h1>
+                            <h1 className="display-4">Apresentamos</h1>
                             <p className="lead mb-0"> nossa nova linha de automóveis.</p>
                             {/*                      <p className="lead">Snippet by <a href="https://bootstrapious.com/snippets" className="text-white">
                                 <u>Bootstrapious</u></a>

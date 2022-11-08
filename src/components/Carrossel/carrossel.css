@@ -7,3 +7,11 @@
   color: rgba(242, 231, 234, 0.911) !important;
   text-shadow: 1px 1px 2px black;
 }
+
+.active{
+  transition: 1.5s;
+}
+.carousel{
+  margin-top: 40px;
+  width: 80%;
+}

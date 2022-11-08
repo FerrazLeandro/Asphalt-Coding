@@ -37,6 +37,7 @@ function GridCards() {
             <Busca
                 value={busca}
                 onChange={(search) => setBusca(search)}
+                
             />
             <div className="container-fluid w-100 p-3 align-items-center" >
                 {item.length > 0 ? (
