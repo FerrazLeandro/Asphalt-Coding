@@ -17,6 +17,7 @@
 */
 
 .video-background-holder {
+  margin-top: 47px;
     position: relative;
     background-color: black;
     height: calc(100vh - 72px);
