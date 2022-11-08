@@ -64,11 +64,11 @@ function FormularioConsultaDetalhes() {
                         </div>
                         <div className="form-group col-md-1 d-inline-block m-3">
                             <label htmlFor="ano">Ano</label>
-                            <input type="number" className="form-control" id="ano" placeholder={item.ano} onChange={e => setAnoAlterado(e.target.value)} value={anoAlterado} />
+                            <input type="number" className="form-control" id="ano" placeholder={item.ano} min={2010} max={2023} onChange={e => setAnoAlterado(e.target.value)} value={anoAlterado} />
                         </div>
                         <div className="form-group col-md-2 d-inline-block m-3">
                             <label htmlFor="valor">Valor</label>
-                            <input type="text" className="form-control" id="valor" placeholder={item.valor} onChange={e => setValorAlterado(e.target.value)} value={valorAlterado} />
+                            <input type="number" className="form-control" id="valor" min={0} placeholder={item.valor} onChange={e => setValorAlterado(e.target.value)} value={valorAlterado} />
                         </div>
                         <div className="form-group col-md-9 m-3">
                             <label htmlFor="foto">Foto</label>

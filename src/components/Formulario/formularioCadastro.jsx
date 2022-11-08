@@ -19,7 +19,8 @@ function FormularioCadastro() {
     }
 
     const cadastrarItem = async (e) => {
-        if (veiculo != "" || modelo != "" || fabricante != "" || ano != "" || valor != "" || foto != "https://cdn-icons-png.flaticon.com/512/3774/3774278.png") {
+
+        if (veiculo != "" & modelo != "" & fabricante != "" & ano != "" & valor != "" & foto != "https://cdn-icons-png.flaticon.com/512/3774/3774278.png") {
             e.preventDefault();
 
             const itemAtualizado = {
@@ -58,11 +59,11 @@ function FormularioCadastro() {
                         </div>
                         <div className="form-group col-md-1 d-inline-block m-3">
                             <label htmlFor="ano">Ano</label>
-                            <input type="number" className="form-control" id="ano" min={2010} placeholder="Ano" onChange={e => setAno(e.target.value)} required />
+                            <input type="number" className="form-control" id="ano" min={2010} max={2023} placeholder="Ano" onChange={e => setAno(e.target.value)} required />
                         </div>
                         <div className="form-group col-md-2 d-inline-block m-3">
                             <label htmlFor="valor">Valor</label>
-                            <input type="text" className="form-control" id="valor" placeholder="Valor" onChange={e => setValor(e.target.value)} required />
+                            <input type="number" className="form-control" id="valor" placeholder="Valor" onChange={e => setValor(e.target.value)} required />
                         </div>
                         <div className="form-group col-md-9 d-inline-block m-3">
                             <label htmlFor="ano">Foto</label>
