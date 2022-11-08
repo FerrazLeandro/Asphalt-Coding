@@ -20,7 +20,7 @@ const Busca = ({ value, onChange }) => {
                     value={value}
                     onChange={handleChange}
                 />
-                <Link className="botao-cadastrar btn btn-lg btn-primary" to={`/cadastro`}><FaCar />Cadastrar</Link>
+                <Link className="botao-cadastrar btn btn-lg btn-primary" to={`/cadastro`}>Cadastrar</Link>
             </form>
         </div>
     );
