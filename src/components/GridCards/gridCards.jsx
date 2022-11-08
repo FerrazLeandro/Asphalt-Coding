@@ -33,12 +33,13 @@ function GridCards() {
 
     return (
         <>
-            <Busca
+        <div className="id"></div>
+            <Busca 
                 value={busca}
                 onChange={(search) => setBusca(search)}
                 
             />
-            <div className="cards-consulta container-fluid w-100 p-3 align-items-center" >
+            <div className="container-fluid w-100 p-3 align-items-center" >
                 {item.length > 0 ? (
                     <>
                         {item.map((carro) =>
