@@ -13,7 +13,10 @@
   background-repeat: repeat;
   padding-bottom: 100px;
   margin-top: 29px;
-  
+}
+
+.accordion {
+  width: 95%;
 }
 
 
