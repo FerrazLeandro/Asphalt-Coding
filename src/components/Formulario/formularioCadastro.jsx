@@ -15,7 +15,7 @@ function FormularioCadastro() {
 
     const navegar = useNavigate()
     const voltarConsulta = () => {
-        navegar("/consulta")
+        navegar("/garagem")
     }
 
     const cadastrarItem = async (e) => {

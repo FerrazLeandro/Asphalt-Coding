@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom"
 function Modal() {
     const navegar = useNavigate()
     const voltarConsulta = () => {
-        navegar("/consulta")
+        navegar("/garagem")
     }
     return (
         <>

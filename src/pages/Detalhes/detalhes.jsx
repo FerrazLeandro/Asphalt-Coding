@@ -1,11 +1,11 @@
 import Footer from "../../components/Footer/footer"
 import Header from "../../components/Header/header"
-import './consultaDetalhes.css'
+import './detalhes.css'
 import Modal from "../../components/Modal/modal";
-import FormularioConsultaDetalhes from "../../components/Formulario/formularioConsultaDetalhes";
+import FormularioConsultaDetalhes from "../../components/Formulario/formularioDetalhes";
 
 
-function ConsultaDetalhes() {
+function Detalhes() {
 
     return (
         <>
@@ -17,4 +17,4 @@ function ConsultaDetalhes() {
     )
 }
 
-export default ConsultaDetalhes
+export default Detalhes
