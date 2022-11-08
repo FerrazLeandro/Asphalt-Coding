@@ -16,22 +16,19 @@ function Carrossel() {
                     <div className="carousel-item active" data-bs-interval="10000">
                         <img src={imgCarro1} className="d-block w-100" alt="imagem de um carro" />
                         <div className="carousel-caption  d-md-block">
-                            <h1>Segurança</h1>
-                            <h2>Pode confiar, 10 anos de mercado</h2>
+                            <h2>Pronto, mesmo que o condutor não esteja!</h2>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
                         <img src={imgCarro2} className="d-block w-100" alt="imagem de um carro" />
                         <div className="carousel-caption  d-md-block">
-                            <h1>Variedade</h1>
-                            <h2>De Porshe a Ferrari</h2>
+                            <h2>Preço é o que você paga. Valor é o que você recebe.</h2>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src={imgCarros3} className="d-block w-100" alt="imagem de um carro" />
                         <div className="carousel-caption  d-md-block">
-                            <h1>Custo beneficio</h1>
-                            <h2>Pague com seu salário de DEV</h2>
+                            <h2>Pague com seu salário de DEV!</h2>
                         </div>
                     </div>
                 </div>
