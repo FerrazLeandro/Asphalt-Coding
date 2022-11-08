@@ -12,13 +12,11 @@
     align-items: center;
     box-sizing: inherit;
     color: aliceblue;
-    background-color: rgb(0, 0, 0);
     height: 10vh;
     margin-top: -40px;
 } 
 nav{
-    height: 8vh;
-    background-color: rgba(0, 0, 0, 0.938);
+    background-color: rgba(37, 37, 38, 0.938);
 }
 
 
