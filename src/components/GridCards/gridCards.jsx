@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Busca from "../Busca/busca";
 import api from "../../services/api";
 import './gridCards.css'
-import { FaTrash, FaCar } from 'react-icons/fa';
 
 
 function GridCards() {
@@ -34,7 +33,8 @@ function GridCards() {
 
     return (
         <>
-            <Busca
+        <div className="id"></div>
+            <Busca 
                 value={busca}
                 onChange={(search) => setBusca(search)}
                 
@@ -58,7 +58,7 @@ function GridCards() {
                         )}
                     </>
                 ) : (
-                    <p></p>
+                    <p>Carregando ...</p>
                 )}
             </div>
         </>
