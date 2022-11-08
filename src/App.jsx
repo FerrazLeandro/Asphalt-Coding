@@ -2,8 +2,8 @@ import './App.css'
 import Home from './pages/Home/home'
 import { Routes, Route } from 'react-router-dom'
 import Cadastro from './pages/Cadastro/cadastro'
-import Consulta from './pages/Consulta/consulta'
-import ConsultaDetalhes from './pages/ConsultaDetalhes/consultaDetalhes'
+import Garagem from './pages/Garagem/garagem'
+import Detalhes from './pages/Detalhes/detalhes'
 import Sobre from './pages/Sobre/sobre'
 import Erro from './pages/Erro/erro'
 import VLibras from 'vlibras-react'
@@ -17,10 +17,9 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/cadastro' element={<Cadastro />} />
-      <Route path='/consulta' element={<Consulta />} />
-      <Route path='/consultaDetalhes' element={<ConsultaDetalhes />} />
+      <Route path='/garagem' element={<Garagem />} />
+      <Route path='/detalhes' element={<Detalhes />} />
       <Route path='/sobre' element={<Sobre />} />
-      <Route path='/cf/*' element={<Erro />} /> 
       <Route path='*' element={<Erro />} /> 
     </Routes>
     </>

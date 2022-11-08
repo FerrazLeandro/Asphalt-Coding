@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import './formularioConsultaDetalhes.css'
+import './formularioDetalhes.css'
 import api from "../../services/api"
 
 

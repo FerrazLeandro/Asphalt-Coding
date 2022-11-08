@@ -51,7 +51,7 @@ function GridCards() {
                                         <h5 className="card-text">{carro.fabricante}</h5>
                                         <h5 className="card-text">Ano: {carro.ano}</h5>
                                         <h5 className="card-text">R$: {carro.valor}</h5>
-                                        <Link className="btn btn-lg btn-primary" to={`/consultaDetalhes`} state={{ data: carro }}>Detalhes</Link>
+                                        <Link className="btn btn-lg btn-primary" to={`/detalhes`} state={{ data: carro }}>Detalhes</Link>
                                         <button type="button" className="btn btn-lg btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={(e) => (deletarItem(carro.id))}>Excluir</button>
                                     </div>
                                 </div>
