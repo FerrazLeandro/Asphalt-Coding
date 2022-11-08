@@ -2,6 +2,10 @@
   width: 100%;
   height: 150px;
 }
+.id{
+  margin-top: 10px;
+  margin: 2px solid red;
+}
 
 .card {
   display: inline-block;

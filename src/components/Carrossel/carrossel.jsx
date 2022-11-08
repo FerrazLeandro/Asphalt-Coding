@@ -13,19 +13,19 @@ function Carrossel() {
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div className="carousel-inner">
-                    <div className="carousel-item active" data-bs-interval="70">
+                    <div className="carousel-item " data-bs-interval="300">
                         <img src={imgCarro1} className="d-block w-100" alt="imagem de um carro" />
                         <div className="carousel-caption  d-md-block">
                             <h2>Pronto, mesmo que o condutor não esteja!</h2>
                         </div>
                     </div>
-                    <div className="carousel-item" data-bs-interval="70">
+                    <div className="carousel-item" data-bs-interval="300">
                         <img src={imgCarro2} className="d-block w-100" alt="imagem de um carro" />
                         <div className="carousel-caption  d-md-block">
                             <h2>Preço é o que você paga. Valor é o que você recebe.</h2>
                         </div>
                     </div>
-                    <div className="carousel-item" data-bs-interval="70">
+                    <div className="carousel-item active" data-bs-interval="300">
                         <img src={imgCarros3} className="d-block w-100" alt="imagem de um carro" />
                         <div className="carousel-caption  d-md-block">
                             <h2>Pague com seu salário de DEV!</h2>
