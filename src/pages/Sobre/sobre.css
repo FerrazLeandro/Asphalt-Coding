@@ -38,3 +38,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+.redes {
+  width: 50px;
+  height: 50px;
+  color: black;
+  margin: 10px;
+}
