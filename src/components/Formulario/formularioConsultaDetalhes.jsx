@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
-import { FaTrash } from 'react-icons/fa';
+import { useState } from "react";
+import { useLocation } from "react-router-dom";
 import './formularioConsultaDetalhes.css'
 import api from "../../services/api"
 
@@ -21,9 +20,6 @@ function FormularioConsultaDetalhes() {
     const [foto, setFoto] = useState("")
     const [fotoAlterado, setFotoAlterado] = useState(item.foto)
     const [mensagem, setMensagem] = useState("")
-
-    useEffect(() => {
-    }, [])
 
     const deletarItem = async () => {
         await api.delete(`/carros/${item.id}`)

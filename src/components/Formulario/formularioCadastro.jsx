@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useState } from "react";
+import { useLocation , useNavigate} from "react-router-dom";
 import api from "../../services/api";
 import './formularioCadastro.css';
-import Modal from '../Modal/modal'
 
 function FormularioCadastro() {
     const { state } = useLocation()
@@ -14,17 +13,14 @@ function FormularioCadastro() {
     const [ano, setAno] = useState("")
     const [foto, setFoto] = useState("https://cdn-icons-png.flaticon.com/512/3774/3774278.png")
 
-    useEffect(() => {
-    }, [])
-
-    
+    const navegar = useNavigate()
+    const voltarConsulta = () => {
+        navegar("/consulta")
+    }
 
     const cadastrarItem = async (e) => {
-        if (veiculo == "" || modelo == "" || fabricante == "" || ano == "" || valor == "" || foto == "") {
-            
-        } else {
+        if (veiculo != "" || modelo != "" || fabricante != "" || ano != "" || valor != "" || foto != "https://cdn-icons-png.flaticon.com/512/3774/3774278.png") {
             e.preventDefault();
-
 
             const itemAtualizado = {
                 veiculo: veiculo,
@@ -36,7 +32,7 @@ function FormularioCadastro() {
             }
             await api.post(`/carros/`, itemAtualizado);
             alert("Cadastrado com sucesso")
-
+            voltarConsulta();
         }
     }
 
