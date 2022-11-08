@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Busca from "../Busca/busca";
 import api from "../../services/api";
 import './gridCards.css'
-import { FaTrash, FaCar } from 'react-icons/fa';
 
 
 function GridCards() {
@@ -39,7 +38,7 @@ function GridCards() {
                 onChange={(search) => setBusca(search)}
                 
             />
-            <div className="container-fluid w-100 p-3 align-items-center" >
+            <div className="cards-consulta container-fluid w-100 p-3 align-items-center" >
                 {item.length > 0 ? (
                     <>
                         {item.map((carro) =>
@@ -58,7 +57,7 @@ function GridCards() {
                         )}
                     </>
                 ) : (
-                    <p></p>
+                    <p>Carregando ...</p>
                 )}
             </div>
         </>
