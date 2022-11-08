@@ -80,7 +80,7 @@ function Sobre() {
                                     </div>
                                     <div id="collapseSix" className="collapse" data-bs-parent="#accordion">
                                         <div className="card-body">
-                                            <h3 className="text-center fw-normal">Rivania administra o blog “Mulheres na Computação”, que incentiva  mulheres a entrar na área da tecnologia e empreender. Segundo ela, o blog surgiu quando se deparou com uma foto da primeira turma de ciência da computação da USP com 70% de mulheres. Ela está listada pela Forbes como under40 em Tecnologia e Educação. .</h3>
+                                            <h3 className="text-center fw-normal">Rivania administra o blog “Mulheres na Computação”, que incentiva  mulheres a entrar na área da tecnologia e empreender. Segundo ela, o blog surgiu quando se deparou com uma foto da primeira turma de ciência da computação da USP com 70% de mulheres. Ela está listada pela Forbes como under40 em Tecnologia e Educação.</h3>
                                         </div>
                                     </div>
                                 </div>
