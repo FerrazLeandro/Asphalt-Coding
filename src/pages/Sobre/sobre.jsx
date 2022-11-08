@@ -11,10 +11,10 @@ function Sobre() {
                 <div className="container align-items-start">
                     <div className="row align-items-start">
                         <div className="col w-100 align-items-start ">
-                            <div id="accordion">
-                                <div className="card w-100">
-                                    <div className="card-header">
-                                        <a className="btn btn-dark w-100" data-bs-toggle="collapse" href="#collapseOne">
+                            <div id="accordion" >
+                                <div className="card w-100" >
+                                    <div className="card-header"  >
+                                        <a className="btn btn-dark w-100 " data-bs-toggle="collapse" href="#collapseOne">
                                             <h2>Asphalt Coding</h2>
                                         </a>
                                     </div>
