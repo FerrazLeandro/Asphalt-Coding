@@ -20,6 +20,7 @@ function App() {
       <Route path='/consulta' element={<Consulta />} />
       <Route path='/consultaDetalhes' element={<ConsultaDetalhes />} />
       <Route path='/sobre' element={<Sobre />} />
+      <Route path='/cf/*' element={<Erro />} /> 
       <Route path='*' element={<Erro />} /> 
     </Routes>
     </>
