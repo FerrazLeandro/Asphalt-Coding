@@ -13,14 +13,12 @@
   background-repeat: repeat;
   padding-bottom: 100px;
   margin-top: 29px;
-  
 }
-#accordion{
-  margin-right: 100px;
-  align-items: center !important;
-  justify-content: center !important;
-  text-align: center !important;
+
+.accordion {
+  width: 95%;
 }
+
 
 .container {
   width: 60%;
