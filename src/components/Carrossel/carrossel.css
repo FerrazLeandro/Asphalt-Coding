@@ -1,42 +1,10 @@
-.row {
-  min-width: 900px;
-  max-height: 700px;
-}
-.container-fluid{
-   width: 99%; 
- 
-}
-
 .carousel-inner > .carousel-item > img {
-  width: auto;
+  width: 100%;
   height: 500px;
-  margin-top: 20px;
-
-
 }
 
 
-@media screen and    (max-width:700px){
-  .carousel-inner h1 ,h2{
-    color: rgb(163, 141, 141);
-  }
-
-}
-
-.carousel-inner h1 ,h2{
-  color: rgba(242, 231, 234, 0.563) !important;
+.carousel-inner h1 ,h2 {
+  color: rgba(242, 231, 234, 0.911) !important;
   text-shadow: 1px 1px 2px black;
 }
-
-
-@media screen and    (max-width:905px){
- 
-  .carouselExampleDark   {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    border: 10px solid red;
-    height: 50%;
-   }
- 
- }
