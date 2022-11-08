@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaGoogle, FaInstagram, FaLinkedin, FaTwitter } fr
 function Footer() {
     return (
         <>
-            <div className='fixed-bottom'>
+            <div>
                 <footer className="bg-dark text-center text-white">
                     <div className="container p-4 pb-0">
 
