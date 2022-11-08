@@ -17,14 +17,15 @@ function FormularioCadastro() {
     useEffect(() => {
     }, [])
 
+    
 
     const cadastrarItem = async (e) => {
         if (veiculo == "" || modelo == "" || fabricante == "" || ano == "" || valor == "" || foto == "") {
-            alert("Todos os campos devem ser preenchidos.")
+            
         } else {
+            e.preventDefault();
 
-            <Modal />
-        }
+
             const itemAtualizado = {
                 veiculo: veiculo,
                 modelo: modelo,
@@ -33,8 +34,10 @@ function FormularioCadastro() {
                 valor: valor,
                 foto: foto
             }
-            await api.post(`/carros/`, itemAtualizado)
-        
+            await api.post(`/carros/`, itemAtualizado);
+            alert("Cadastrado com sucesso")
+
+        }
     }
 
     return (
@@ -70,7 +73,7 @@ function FormularioCadastro() {
                             <input type="text" className="form-control" id="foto" placeholder="Url da foto" onChange={e => setFoto(e.target.value)} required />
                         </div>
                     </div>
-                    <button type="submit" className="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={cadastrarItem}>Cadastrar</button>
+                    <button type="submit" className="btn btn-primary" onClick={cadastrarItem}>Cadastrar</button>
                 </form>
             </div>
         </>
