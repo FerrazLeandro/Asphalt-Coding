@@ -11,7 +11,7 @@
   font-size: 62.5%;
   background-image: url("../../assets/background3.png");
   background-repeat: repeat;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 #accordion{
   margin-right: 100px;
@@ -22,7 +22,6 @@
 
 .container {
   width: 60%;
-  margin: 2rem auto;
   
 }
 .divisao{
