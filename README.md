@@ -1,6 +1,27 @@
 
 # Trabalho Front End com React
 
+## Acesso
+
+Para fazer o usar desse projeto acesse: 
+
+```bash
+  https://asphaltcoding.cf/
+```
+
+
+## Funcionalidades
+
+- CRUD
+- Preview em tempo real
+- Modo tela cheia
+- Multiplataforma
+- Libras
+
+
+
+
+
 Construir uma interface agradável para que seja possível fazer um CRUD e consumir a api criada na matéria anterior ou consumir uma Mock API;
 Pode ser um Painel Administrativo do Ecommerce, onde será possível ver os produtos e suas informações, além de ser possível cadastrar, atualizar e deletar;
 Pode ser o Ecommerce em si, onde será possível adicionar um produto no carrinho, remover, atualizar quantidade e excluir do Carrinho. Ou  mesmo um CRUD de cadastro de usuário;
