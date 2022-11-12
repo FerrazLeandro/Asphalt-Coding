@@ -3,7 +3,7 @@
 
 ## Acesso
 
-Para fazer o usar desse projeto acesse: 
+Para usar o projeto acesse: 
 
 ```bash
   https://asphaltcoding.cf/
